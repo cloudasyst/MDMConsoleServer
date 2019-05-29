@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="MDMConsoleSever">
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <dependent-module archiveName="spring-web-4.2.3.RELEASE.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/spring-web-4.2.3.RELEASE/spring-web-4.2.3.RELEASE">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="universal-api-9.99.0-t1494340586.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/universal-api-9.99.0-t1494340586/universal-api-9.99.0-t1494340586">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="java-output-path" value="/MDMConsoleSever/build/classes"/>
+        <property name="context-root" value="MDMConsoleSever"/>
+    </wb-module>
+</project-modules>

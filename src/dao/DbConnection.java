@@ -11,6 +11,7 @@ public Connection getConnection() throws Exception
 {
 try
 {
+	//test
 String connectionURL = "jdbc:mysql://localhost:3306/DeploymentConsole";
 Connection connection = null;
 Class.forName("com.mysql.jdbc.Driver").newInstance();
